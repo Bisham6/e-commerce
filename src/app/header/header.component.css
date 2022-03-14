@@ -1,0 +1,23 @@
+
+          /* header */
+
+a{
+    color: grey;
+}
+
+form {
+    position: fixed;
+    margin-left: 60%;
+}
+i{
+    margin-top: 5%;
+}
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+
