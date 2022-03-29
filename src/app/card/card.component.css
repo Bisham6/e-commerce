@@ -1,0 +1,22 @@
+.btn {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    /* width: 109px; */
+    height: 31px;
+    width: 100%;
+    text-align: center;
+}
+
+.card{
+    padding: 20px;
+    margin:20px;
+}
+.container{
+    margin-left: 15%;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+

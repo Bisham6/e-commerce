@@ -1,1 +1,18 @@
-<p>card works!</p>
+<div class="container">
+  <div class="row">
+    <ng-container *ngFor="let a of data">
+      <div class="card col-md-3">
+        <a  [routerLink]="['/produdDetail',a.title,a.des,a.img,a.price]"    class="thumb">
+          <img class="card-img-top" src="{{ a.img }}" alt="Card image cap"/>
+        </a>
+        <h2 style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100ch;" class="card-title">{{ a.title }}</h2>
+        <p  style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100ch;" class="card-text">{{ a.des }}</p>
+        <p><strong>Price:</strong>{{ a.price| currency:'INR' }}</p>
+        <button class="btn btn-secondary" (click)="addProduct(a)">
+          Add to cart
+        </button>
+      </div>
+    </ng-container>
+  </div>
+</div>
+<app-footer></app-footer>

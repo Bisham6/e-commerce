@@ -16,8 +16,30 @@ i{
     font-family: 'Dancing Script', cursive;
     font-size: 50px;
 }
-img{
-    width: 400px;
-    height: 300px;
+h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: blueviolet;
+}
+
+
+#slider .carousel-item {
+    height: 100px;
+  }
+  
+  .carousel-caption {
+    font-size: 18px;
+  }
+  
+  .carousel-item>img {
+    width: 50%
+  }
+  .img{
+      height: 20%;
+      width: 20%;
+      position: fixed;
+  }
+  mat-toolbar{
+    justify-content: space-between;
 }
 

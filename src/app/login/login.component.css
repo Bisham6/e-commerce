@@ -1,0 +1,43 @@
+center{
+    display: flex;
+    justify-content: center;
+}
+
+.margin-top{
+    margin-top: 16px;
+}
+
+.text-center{
+    text-align: center;
+    color: white;
+}
+
+.form-container{
+    display: block;
+    max-width: 300px;
+    margin: auto;
+
+    background: #eceff1;
+    padding: 20px;
+    border-radius: 16px;
+    opacity: 0.6;
+}
+.form-container mat-form-field{
+    width: 100%;
+    opacity: transparent;
+}
+
+h1{
+    text-size-adjust: 60px;
+    font-style: bold;
+}
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/263822.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.form-container{
+    margin-top: 47px;
+    margin-bottom: 47px;
+}
